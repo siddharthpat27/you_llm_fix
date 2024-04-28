@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        .menu-item {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#home" style="color: rgb(255, 255, 255); background-color: rgba(244, 67, 54, 0.8);">Home</a>
+<a href="#menu" style="color: rgb(255, 255, 255); background-color: rgba(33, 150, 243, 0.8);">Menu</a>
+<a href="#about" style="color: rgb(255, 255, 255); background-color: rgba(76, 175, 80, 0.8);">About</a>
+
+    </header>
+    
+    <div id="home">
+        <h1>Welcome to Our Chinese Restaurant</h1>
+        <p>Experience the authentic flavors of China.</p>
+    </div>
+    
+    <div id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Kung Pao Chicken</h3>
+            <p>A spicy stir-fry dish made with chicken, peanuts, vegetables, and chili peppers.</p>
+            <p>Price: $12.99</p>
+        </div>
+        <div class="menu-item">
+            <h3>Mapo Tofu</h3>
+            <p>A classic Sichuan dish with silky tofu, ground pork, and a spicy, flavorful sauce.</p>
+            <p>Price: $10.99</p>
+        </div>
+        <!-- Add more menu items as needed -->
+    </div>
+    
+    <div id="about">
+        <h2>About Us</h2>
+        <p>At Our Chinese Restaurant, we strive to bring the best of Chinese cuisine to your table.</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Our Chinese Restaurant</p>
+    </footer>
+    
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <script>
+        // Add JavaScript code here if needed
+    </script>
+</body>
+</html>
